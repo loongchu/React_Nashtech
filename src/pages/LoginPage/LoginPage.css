@@ -1,0 +1,22 @@
+.login-from{
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.login-input{
+    width: 300px;
+}
+.login-form-title{
+    text-align: center;
+}
+.login-form--container{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.form-input{
+    display: flex;
+    justify-content: center;
+}
+.position-relative{
+    margin-bottom: 15px;
+}

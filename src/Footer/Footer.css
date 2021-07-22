@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer .row ul {
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer .row ul li{
+    background-color: white;
+}
+.footer .row ul li button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    cursor: pointer;
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition-duration: 0.4s;
+}
+.footer .row ul li button:hover{
+    background-color: #0085A1;
+}
+.footer  .row ul li button i{
+    font-size: 30px;
+    color: white;
+}
+
+.footer  .copyright{
+    color: #6c757d!important;
+    line-height: 1.5;
+    font-family: 'Lora', 'Times New Roman', serif;
+    margin-top: 30px;
+}
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}

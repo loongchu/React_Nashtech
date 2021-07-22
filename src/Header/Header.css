@@ -1,0 +1,61 @@
+.header{
+    height: 550px;
+    width: 100%;
+    background: no-repeat center center;
+    background-size: cover;
+    padding-top: 10px;
+    position: relative;
+}
+.overlay{
+    background-color: #212529;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.clear-fix {
+    clear: both;
+}
+.logo-style{
+    width: 150px;
+    height: 43px;
+}
+.search-input{
+    background-color: white;
+    height: 32px;
+}
+.nav-link{
+    color: #fff;
+    font-family: sans-serif ,tahoma,Arial,"Trebucket MS";
+    font-size: 12px;
+    font-weight: 800;
+}
+.nav-link:hover{
+    color: darkseagreen;
+}
+.header-content{
+    color:white;
+    font-size: 32px;
+    text-align: center;
+    padding:5.5em;
+}
+.header-content p {
+    font-size: 80px;
+    line-height: 1.1;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.header-content span {
+    font-size: 24px;
+    line-height: 1.1;
+    font-weight: 300;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.relative{
+    position: relative;
+}
